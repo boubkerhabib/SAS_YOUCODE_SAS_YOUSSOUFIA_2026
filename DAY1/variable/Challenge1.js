@@ -1,3 +1,4 @@
+//Challenge 1 : Profil d'un joueur
 let Pseudo = "ShadowX";
 let Niveau = 12;
 let Age = 21;

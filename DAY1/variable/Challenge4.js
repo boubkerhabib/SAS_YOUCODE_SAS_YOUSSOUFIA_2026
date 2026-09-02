@@ -1,27 +1,12 @@
 
 // Challenge 4 : Calcul de consommation d'une voiture
 
-const readline = require('node:readline/promises');
-const { stdin: input, stdout: output } = require('node:process');
+let prompt = require('prompt-sync')();
 
-const rl = readline.createInterface({ input, output });
+let distance = Number(prompt('Entrez la distance parcourue en km : '));
 
-async function consommation() {
+let carburant = Number(prompt('entrez la quantite de carburant consommee en litres : '));
 
-    let distance = Number(
-        await rl.question("Entrez la distance parcourue en km : ")
-    );
+let consommation = (carburant / distance)*100;
 
-    let carburant = Number(
-        await rl.question("entrez la quantite de carburant consommee en litres : ")
-    );
-
-    let consommation = (carburant / distance) * 100;
-
-    console.log("Consommation : " + consommation + " L/100 km");
-
-    rl.close();
-}
-
-consommation();
-
+console.log("Consommation : " + consommation + " L/100 km");
