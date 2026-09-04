@@ -7,11 +7,7 @@ function compterCaracteres(totalMot){
     
     for (let i = 0;totalMot[i] !== undefined;i++){
         count++;
-        
-
     }
     console.log(count);
-
-
 }
 compterCaracteres(totalMot);
