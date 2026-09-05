@@ -16,12 +16,12 @@ L'objectif principal est de créer un système permettant de faciliter la gestio
 
 L'application devra permettre de :
 
-Gérer les informations des étudiants.
-Gérer les notes.
-Calculer les moyennes.
-Afficher les résultats.
-Classer les étudiants.
-Rechercher et filtrer des étudiants.
+    Gérer les informations des étudiants.
+    Gérer les notes.
+    Calculer les moyennes.
+    Afficher les résultats.
+    Classer les étudiants.
+    Rechercher et filtrer des étudiants.
 Afficher des statistiques.
 3. Technologies utilisées
 
