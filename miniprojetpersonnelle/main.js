@@ -1,5 +1,5 @@
 //projet personnelle(system de faculte):
- 
+
 let prompt = require("prompt-sync")();
 
 let name = [];
@@ -64,7 +64,7 @@ while (true){
                  break;
         case 6 : console.log("6");
                  break;
-        case 7 : console.log("7");
+        case 7 : console.log("");
                  break;
        
         case 0 : console.log("bslama");
