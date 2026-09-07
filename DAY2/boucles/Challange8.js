@@ -1,18 +1,13 @@
-//Challenge 13 : Vérifier si un nombre est premier
+//Challenge 8 : Accumulation de points
+
 let prompt = require("prompt-sync")();
-let PN = Number(prompt("le nomber : "));
-let count = 0;
-for(let i = 2; i <= PN-1;i++){
-    if(PN % i === 0){
-        count++;
-        
-    }
+let nombre = Number(prompt("Nombre de missions : "));
 
+let score = 0;
+let mission = 1;
+while ( mission <= nombre) {
+    
+    score += 100;
+    console.log(`Mission ${mission} → Score : ${score}`);
+    mission++;
 }
-if (count === 0 && PN > 1){
-    console.log("le nomber " + PN +" est premier: ");
-}else if (count > 0 && PN === 1){
-    console.log("le nomber " + PN +" est pas de  premier: ");
-
-}
-
